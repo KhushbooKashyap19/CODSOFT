@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+</head>
+<style>
+*
+{
+    padding:1.5%;
+    margin:0%;
+    box-sizing: border-box;
+}
+#title{
+    font-size: 50px;
+    color: white;
+    text-align: left;
+    float: left;
+    margin-top: 10px;
+    display: inline;
+}
+body{
+    background-size: cover;
+    background-position: left;
+    font-family: sans-serif;
+    background-image: url(portfolio\ background.gif.jpg);
+}
+.menubar{
+    background: rgb(0,0,100);
+    text-align: right;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+.menubar ul li{
+    width: 85px;
+    font-size: 15px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.menubar ul li:hover{
+    border-radius: 4px;
+    background-color: #25d366;
+}
+.bigbox1{
+    width: 500px;
+    float: left;
+    font-size: large;
+}
+.button{
+    display: inline;
+    background-color: orange;
+    color: white;
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: 5px solid orange;
+}
+#about:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+#skills:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+#contact:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+.my_pic:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.button:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.my_pic{
+    float: right;
+   box-sizing: border-box;
+   width: 400px;
+   height: 500px;
+   border: 1px solid black; 
+   background-color: white;
+   background-image: url(my_pic1.gif);
+   background-size: cover;
+   background-repeat: no-repeat;
+   box-shadow: 25px 25px 25px grey;
+}
+.bigbox{
+    height: 450px;
+    color: white;
+}
+</style>
+<body>
+    <div class="menubar">
+        <header style="font-size: 25px; color: white; float: left; margin-top: 20px; font-family: cursive;">Khushboo Kashyap</header>
+        <ul>
+            <li><a href="#about" style="color: white; text-decoration: none;">About</a></li>
+            <li><a href="#skills" style="color:white; text-decoration: none;">Skills</a></li>
+            <li><a href="#" style="color:white; text-decoration: none;">Projects</a></li>
+            <li><a href="#" style="color:white; text-decoration: none;">Experience</a></li>
+            <li><a href="#contact" style="color:white; text-decoration: none;">Contact</a></li>
+        </ul></div><br><br>
+
+    <div class="bigbox">
+        <div class="bigbox1">
+        <h1 style="font-family: cursive;">Hii , my name is Khushboo Kashyap</h1><br><br>
+        <h4 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">I am a fervent Full Stack Web Developer having basic experience in website development with HTML , CSS , and Javascript</h4>
+        <br><br>
+        <button class="button" onclick="location.href='my resume3.pdf'">My Resume</button><p style="display: inline;"></p></div>
+        
+        <div class="my_pic"></div>
+        </div>
+        
+        <br><br><br><br><br><br>
+        <div id="about" style="background-color: #00aced; color: white; ">
+            <h1>About Me</h1>
+            <p>Hello, my name is Khushboo Kashyap . I am a B.Tech 3rd year student with Computer Science and Engineering branch at Deen Dayal Upadhayay Univrsity ,Gorakhpur . I have basic knowledge and experience in web development using HTML, CSS, Javascript . Now coming to programming languages ,so I have experience in working with Java, Python and C. My hobbies is to explore new thing around internet which could help me in building a strong carrier and listening music. I want to become a web developer .</p>
+        </div>
+        <br><br>
+        
+        <div id="skills" style="background-color: #00aced; color: white;">
+            <h1> My Skills</h1>
+            <p>I have basic knowledge and experience in web development using HTML, CSS, Javascript . Now coming to programming languages ,so I have experience in working with Java, Python and </p>
+            </div><br><br>
+            <div id="contact" style="background-color: #00aced; color: white;">
+                <h1>My Contact</h1>
+                <p>Email - khushbook1903@gamil.com</p>
+                <p>My LinkedIn profile I'D - <a href="https://www.linkedin.com/in/khushboo-kashyap-715a91252">LinkedIn</a></p></div>
+            </div>
+        </div>
+        <br><br>
+        <footer style="display: inline;"><center>&copy;Copyright Publication 2023<pre>  </pre>Contact :- khushbook1903@gmail.com</center>
+        </footer>
+</body>
+</html>
